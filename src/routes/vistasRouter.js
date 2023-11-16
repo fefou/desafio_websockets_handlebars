@@ -1,6 +1,6 @@
 import { Router } from 'express';
 export const router=Router()
-
+import productosJSON from '../json/productos.json' assert { type: "json" }
 
 
 router.get('/',(req,res)=>{ 
@@ -11,5 +11,5 @@ router.get('/',(req,res)=>{
 
 router.get('/realtimeproducts',(req,res)=>{ 
    
-    res.status(200).render('productos')
+    res.status(200).render('productos', {productos:productosJSON})
 })

@@ -88,5 +88,149 @@
           "thumbnail": "sin imagen",
           "code": 10,
           "stock": 100
+     },
+     {
+          "id": 11,
+          "title": "pruebWebSocket",
+          "price": 1200,
+          "code": 11,
+          "stock": 200,
+          "status": true,
+          "thumbnails": []
+     },
+     {
+          "id": 12,
+          "title": "pruebWebSocket2",
+          "price": 1200,
+          "code": 12,
+          "stock": 200,
+          "status": true,
+          "thumbnails": []
+     },
+     {
+          "id": 13,
+          "title": "pruebWebSocket3",
+          "price": 1200,
+          "code": 13,
+          "stock": 200,
+          "status": true,
+          "thumbnails": []
+     },
+     {
+          "id": 14,
+          "title": "pruebWebSocket4",
+          "price": 1200,
+          "code": 14,
+          "stock": 200,
+          "status": true,
+          "thumbnails": []
+     },
+     {
+          "id": 15,
+          "title": "pruebWebSocket5",
+          "price": 1200,
+          "code": 15,
+          "stock": 200,
+          "status": true,
+          "thumbnails": []
+     },
+     {
+          "id": 16,
+          "title": "pruebWebSocket6",
+          "price": 1200,
+          "code": 16,
+          "stock": 200,
+          "status": true,
+          "thumbnails": []
+     },
+     {
+          "id": 17,
+          "title": "pruebWebSocket7",
+          "price": 1200,
+          "code": 17,
+          "stock": 200,
+          "status": true,
+          "thumbnails": []
+     },
+     {
+          "id": 18,
+          "title": "pruebWebSocket8",
+          "price": 1200,
+          "code": 18,
+          "stock": 200,
+          "status": true,
+          "thumbnails": []
+     },
+     {
+          "id": 19,
+          "title": "pruebWebSocket9",
+          "price": 1200,
+          "code": 19,
+          "stock": 200,
+          "status": true,
+          "thumbnails": []
+     },
+     {
+          "id": 20,
+          "title": "pruebWebSocket10",
+          "price": 1200,
+          "code": 20,
+          "stock": 200,
+          "status": true,
+          "thumbnails": []
+     },
+     {
+          "id": 21,
+          "title": "pruebWebSocket11",
+          "price": 1200,
+          "code": 21,
+          "stock": 200,
+          "status": true,
+          "thumbnails": []
+     },
+     {
+          "id": 22,
+          "title": "pruebWebSocket12",
+          "price": 1200,
+          "code": 22,
+          "stock": 200,
+          "status": true,
+          "thumbnails": []
+     },
+     {
+          "id": 23,
+          "title": "pruebWebSocket13",
+          "price": 1200,
+          "code": 23,
+          "stock": 200,
+          "status": true,
+          "thumbnails": []
+     },
+     {
+          "id": 24,
+          "title": "pruebWebSocket14",
+          "price": 1200,
+          "code": 24,
+          "stock": 200,
+          "status": true,
+          "thumbnails": []
+     },
+     {
+          "id": 25,
+          "title": "pruebWebSocket15",
+          "price": 1200,
+          "code": 25,
+          "stock": 200,
+          "status": true,
+          "thumbnails": []
+     },
+     {
+          "id": 26,
+          "title": "pruebawebsocket16",
+          "price": 300,
+          "code": 30,
+          "stock": 400,
+          "status": true,
+          "thumbnails": []
      }
 ]

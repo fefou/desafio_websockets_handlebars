@@ -35,10 +35,11 @@ const serverHTTP=app.listen(port, () => {
     console.log(`Server escuchando en puerto ${port}`);
 })
 
-const serverSockets=new Server(serverHTTP)
+ 
+export const serverSockets=new Server(serverHTTP)
 
 serverSockets.on("connection",socket=>{
     console.log(`se conecto un cliente con id ${socket.id}`)
-
-    serverSockets.emit("productos",productos)
+    
 })
+

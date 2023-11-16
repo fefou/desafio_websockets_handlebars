@@ -11,9 +11,10 @@ import productosJSON from '../json/productos.json' assert { type: "json" }
 import fs from 'fs'
 import path from 'path'
 import __dirname from '../utils.js'
+import { serverSockets } from '../app.js'
 
 const routerP = Router()
-let ruta = path.join(__dirname, '..', 'json', 'productos.json')
+let ruta = path.join(__dirname, 'json', 'productos.json')
 
 
 
@@ -60,7 +61,7 @@ routerP.post('/', (req, res) => {
 
     if (!title || !price || !code || !stock || !category) {
         res.setHeader('Content-Type', 'application/json');
-        return res.status(400).json({ error: `Title, price, code y stock son datos obligatorios.` });
+        return res.status(400).json({ error: `Title, price, code, stock y category son datos obligatorios.` });
     }
 
     let productos = productosJSON;
@@ -82,8 +83,14 @@ routerP.post('/', (req, res) => {
     productos.push(nuevoProducto);
     saveProducts(productos);
 
+
+    serverSockets.emit("productos", productos)
+
+
     res.setHeader('Content-Type', 'application/json');
     return res.status(201).json({ nuevoProducto });
+
+
 });
 
 
